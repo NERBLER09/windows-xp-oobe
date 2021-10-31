@@ -14,6 +14,7 @@ import Main from "./Main.svelte";
 
 <style>
     main {
+        overflow: hidden;
         height: 100vh;
     }	
 </style>

@@ -1,5 +1,9 @@
-<div class="main">
+<script lang="ts">
+import Home from "./pages/home/Home.svelte";
+</script>
 
+<div class="main">
+    <Home/>
 </div>
 
 <style>
