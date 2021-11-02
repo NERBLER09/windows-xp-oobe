@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { Link } from "@jamen/svelte-router"
+</script>
+
 <div class="home">
     <header>
         <h1 class="title-text">Welcome To Microsoft Windows</h1>

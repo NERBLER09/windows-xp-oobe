@@ -1,9 +1,11 @@
 <script lang="ts">
 import Home from "./pages/home/Home.svelte";
+import Routes from "./routes/Routes.svelte";
 </script>
 
 <div class="main">
-    <Home/>
+    <!-- <Home/> -->
+    <Routes/>
 </div>
 
 <style>
