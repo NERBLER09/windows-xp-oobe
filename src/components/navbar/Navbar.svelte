@@ -66,6 +66,42 @@ import NavButton from "./nav-buttons/NavButton.svelte"
                     {
                         text: "Skip",
                         type: "skip",
+                        navPath: "#connectToInternet",
+                        imgSrc: {
+                            default: "images/skipup.jpg",
+                            hover: "images/skipover.jpg",
+                            clicked: "images/skipdown.jpg"
+                        }
+                    },
+                    {
+                        text: "Next",
+                        type: "next",
+                        navPath: "#connectToInternet",
+                        imgSrc: {
+                            default: "images/nextup.jpg",
+                            hover: "images/nextover.jpg",
+                            clicked: "images/nextdown.jpg"
+                        }
+                    },
+                    {
+                        text: "Back",
+                        type: "back",
+                        navPath: "#",
+                        imgSrc: {
+                            default: "images/backup.jpg",
+                            hover: "images/backover.jpg",
+                            clicked: "images/backdown.jpg"
+                        }
+ 
+                    }
+                ]
+
+                break
+            case "#connectToInternet":
+                navbarButtons  = [
+                    {
+                        text: "Skip",
+                        type: "skip",
                         navPath: "#",
                         imgSrc: {
                             default: "images/skipup.jpg",
@@ -97,6 +133,7 @@ import NavButton from "./nav-buttons/NavButton.svelte"
                 ]
 
                 break
+ 
         }
 
     } 
