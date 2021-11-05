@@ -1,5 +1,9 @@
-<div class="footer">
+<script>
+import Navbar from "../navbar/Navbar.svelte";
 
+</script>
+<div class="footer">
+    <Navbar/>
 </div>
 
 <style>
