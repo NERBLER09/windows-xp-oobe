@@ -1,7 +1,3 @@
-<script lang="ts">
-    import { Link } from "@jamen/svelte-router"
-</script>
-
 <div class="home">
     <header>
         <h1 class="title-text">Welcome To Microsoft Windows</h1>
@@ -16,6 +12,7 @@
     header {
         padding-top: 10px;
         margin-left: 50px;
+        margin-right: 50px;
     }
 
     .bottom-text {
