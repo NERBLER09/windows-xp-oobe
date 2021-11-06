@@ -3,6 +3,7 @@ import { onMount } from "svelte";
 
 import Footer from "./components/footer/Footer.svelte";
 import Header from "./components/header/Header.svelte";
+import WindowControl from "./components/windowControls/WindowControls.svelte";
 import Main from "./Main.svelte";
 import Intro from "./pages/intro/Intro.svelte";
 
@@ -17,6 +18,7 @@ import Intro from "./pages/intro/Intro.svelte";
 </script>
 
 <main>
+    <WindowControl/>
     {#if showIntro}
        <Intro/>
     {:else}
