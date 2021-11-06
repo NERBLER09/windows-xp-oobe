@@ -1,10 +1,13 @@
 <div class="internet-connectivity">
     <header>
         <h1 class="title-text">Checking your Internet connectivity</h1>
-        <p class="body-text">Please wait a moment while Windows checks to see if this computer is already connected to the Internet</p>
+        <p class="body-text">
+            Please wait a moment while Windows checks to see if this computer is
+            already connected to the Internet
+        </p>
 
         <div class="dialup">
-            <img src="images/dialup.gif" alt="" class="dialup-img">
+            <img src="images/dialup.gif" alt="" class="dialup-img" />
         </div>
     </header>
 </div>

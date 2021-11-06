@@ -14,8 +14,10 @@
             <img src="images/update-turn-on.gif" alt="" />
             <div class="update-option-content">
                 <div class="update-selection">
-                    <input type="radio" name="autoUpdates" id="turnOn"/>
-                    <label for="turnOn" class="header-text">Help my protect my PC by turning on Automatic Updates</label>
+                    <input type="radio" name="autoUpdates" id="turnOn" />
+                    <label for="turnOn" class="header-text"
+                        >Help my protect my PC by turning on Automatic Updates</label
+                    >
                 </div>
                 <p class="option-bottom-text body-text">(Recommended)</p>
             </div>
@@ -24,24 +26,33 @@
             <img src="images/update-turn-off.gif" alt="" />
             <div class="update-option-content">
                 <div class="update-selection">
-                    <input type="radio" name="autoUpdates" id="turnOff"/>
-                    <label for="turnOff" class="header-text">Not right now</label>
+                    <input type="radio" name="autoUpdates" id="turnOff" />
+                    <label for="turnOff" class="header-text"
+                        >Not right now</label
+                    >
                 </div>
                 <p class="option-bottom-text body-text">
-                    If you haven't turned Automatic Updates, your computer is more vulnerable to viruses and security threats.
+                    If you haven't turned Automatic Updates, your computer is
+                    more vulnerable to viruses and security threats.
                 </p>
             </div>
         </div>
     </form>
 
     <div class="bottom-item">
-        <p class="body-text text-bold">No information is collected that can be used to identify you or contact you</p>
-        <p class="body-text">Please read the Windows Update privacy statement</p>
+        <p class="body-text text-bold">
+            No information is collected that can be used to identify you or
+            contact you
+        </p>
+        <p class="body-text">
+            Please read the Windows Update privacy statement
+        </p>
     </div>
 </div>
 
 <style>
-    header, form {
+    header,
+    form {
         margin-right: 50px;
         padding-top: 10px;
         margin-left: 50px;
