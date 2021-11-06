@@ -3,6 +3,7 @@
 import ConnectToInternet from "../components/connectToInternet/ConnectToInternet.svelte";
 import InternetConnectivity from "../components/InternetConnectivity/InternetConnectivity.svelte";
 import Users from "../components/users/Users.svelte";
+import Finish from "../pages/finish/Finish.svelte";
 import Home from "../pages/home/Home.svelte";
 import Updates from "../pages/updates/Updates.svelte";
 
@@ -11,7 +12,8 @@ import Updates from "../pages/updates/Updates.svelte";
         "/updates": Updates,
         "/internetConnectivity": InternetConnectivity,
         "/connectToInternet": ConnectToInternet,
-        "/users": Users
+        "/users": Users,
+        "/finish": Finish
     }
 </script>
 

@@ -15,6 +15,9 @@
         if(type === "back") {
             history.back()
         }
+        else if(location.hash === "#finish") {
+            window.close()
+        }
         else {
             location.hash = navPath
         }

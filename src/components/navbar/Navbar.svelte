@@ -138,7 +138,7 @@ import NavButton from "./nav-buttons/NavButton.svelte"
                     {
                         text: "Next",
                         type: "next",
-                        navPath: "#",
+                        navPath: "#finish",
                         imgSrc: {
                             default: "images/nextup.jpg",
                             hover: "images/nextover.jpg",
@@ -159,8 +159,19 @@ import NavButton from "./nav-buttons/NavButton.svelte"
                 ]
 
                 break
- 
+            case "#finish":
+                navbarButtons = [{
+                   text: "Finish",
+                   type: "next",
+                   navPath: "#",
+                   imgSrc: {
+                       default: "images/nextup.jpg",
+                       hover: "images/nextover.jpg",
+                       clicked: "images/nextdown.jpg"
+                   }
+                }]
 
+            break
         }
 
     } 
