@@ -22,7 +22,7 @@ import NavButton from "./nav-buttons/NavButton.svelte"
         navbarButtons = []
 
         switch(path) {
-            case "":
+            case "#home":
                 navbarButtons = [{
                    text: "Next",
                    type: "next",
