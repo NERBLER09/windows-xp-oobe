@@ -54,7 +54,7 @@
     }
 
     .internet-options {
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     .internet-options div {

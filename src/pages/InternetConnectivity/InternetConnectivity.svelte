@@ -1,3 +1,17 @@
+<script lang="ts">
+import { onMount } from "svelte";
+
+    let timeout
+
+    onMount(() => {
+        timeout = setTimeout(() => {
+            location.hash = "#connectToInternet"
+        }, 3000);
+    })
+</script>
+
+<svelte:window on:hashchange={() => clearTimeout(timeout)}></svelte:window>
+
 <div class="internet-connectivity">
     <header>
         <h1 class="title-text">Checking your Internet connectivity</h1>

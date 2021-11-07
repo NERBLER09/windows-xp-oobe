@@ -73,5 +73,8 @@
 
     .user-input .center-align input {
         width: 200px;
+        font-family: "MS Serif Sans", Arial;
+        padding: 2px;
+        font-size: 14px;
     }
 </style>

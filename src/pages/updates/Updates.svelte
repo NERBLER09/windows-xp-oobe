@@ -58,9 +58,12 @@
         margin-left: 50px;
     }
 
-    header .body-text {
-        margin-top: 40px;
+    header h1 {
         margin-bottom: 40px;
+    }
+
+    header .body-text {
+        margin-bottom: 30px;
     }
     .option-bottom-text {
         margin-left: 25px;
@@ -76,7 +79,7 @@
     .bottom-item {
         position: absolute;
         bottom: 65px;
-        left: 90px;
+        left: 50px;
     }
     .bottom-item p {
         margin: 0;
@@ -84,5 +87,10 @@
 
     .bottom-item .text-bold {
         font-weight: 900;
+    }
+
+    .update-selection label {
+        margin-top: 10px;
+        margin-right: 5px;
     }
 </style>

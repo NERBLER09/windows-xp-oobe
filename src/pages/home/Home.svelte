@@ -21,9 +21,7 @@
             For the best experience go into full screen by pressing F11 or by
             clicking <span class="underline" on:click={enterFullScreen}
                 >here</span
-            >. To get out of full screen press F11 or click
-            <span class="underline" on:click={enterFullScreen}>here</span>.
-        </p>
+            >. To get out of full screen at any point during the setup press F11. </p>
     </header>
 
     <p class="body-text bottom-text">To continue, click Next.</p>
@@ -48,5 +46,13 @@
 
     header .underline:hover {
         cursor: pointer;
+    }
+
+    header h1 {
+        margin-bottom: 40px;
+    }
+    header p {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 </style>
