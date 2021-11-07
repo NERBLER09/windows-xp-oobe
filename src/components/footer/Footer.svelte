@@ -10,6 +10,5 @@ import Navbar from "../navbar/Navbar.svelte";
     .footer {
         background-image: url("../images/header-bg.jpg");
         height: 50px;
-
     }
 </style>

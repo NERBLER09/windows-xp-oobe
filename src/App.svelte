@@ -3,7 +3,7 @@ import { onMount } from "svelte";
 
 import Footer from "./components/footer/Footer.svelte";
 import Header from "./components/header/Header.svelte";
-import WindowControl from "./components/windowControls/WindowControls.svelte";
+import WindowControls from "./components/windowControls/WindowControls.svelte";
 import Main from "./Main.svelte";
 import Intro from "./pages/intro/Intro.svelte";
 
@@ -15,10 +15,31 @@ import Intro from "./pages/intro/Intro.svelte";
             location.hash  = "#home"
         }, 4240);
     })
+
+    let isWindowFullscreen = false
+    const screenHeight = screen.height
+
+    const checkIfFullscreen = () => {
+       if(window.innerHeight === screenHeight) {
+            isWindowFullscreen = true
+        }
+        else {
+            isWindowFullscreen = false
+        }
+    }
+
+    onMount(() => {
+        checkIfFullscreen()
+    })
 </script>
 
+<svelte:window on:resize={checkIfFullscreen}></svelte:window>
+
 <main>
-    <WindowControl/>
+    {#if !isWindowFullscreen}
+        <WindowControls/>    
+    {/if}
+
     {#if showIntro}
        <Intro/>
     {:else}
