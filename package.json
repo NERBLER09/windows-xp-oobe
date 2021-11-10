@@ -1,8 +1,8 @@
 {
-  "name": "electron-with-svelte-typescript",
-  "productName": "electron-with-svelte-typescript",
+  "name": "windows-xp-oobe-recreation",
+  "productName": "Windows XP OOBE Recreation",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "An (almost) exact recreation of the Windows XP Out of Box Experience. Made for the people who want to revisit the nostalgia of the 2000s.",
   "main": "src/index.js",
   "scripts": {
     "start": "npm run svelte-dev & electron-forge start",
@@ -13,7 +13,9 @@
     "svelte-build": "rollup -c",
     "svelte-dev": "rollup -c -w",
     "svelte-start": "sirv public --no-clear",
-    "svelte-check": "svelte-check --tsconfig ./tsconfig.json"
+    "svelte-check": "svelte-check --tsconfig ./tsconfig.json",
+    "package-linux": "electron-builder --linux",
+    "package-win": "electron-builder --win"
   },
   "build": {
     "win": {
@@ -23,7 +25,7 @@
       ]
     },
     "appx": {
-      "applicationId": "ExplodimgKittensFanGame",
+      "applicationId": "WindowsXPFirstTimeSetupRecreation",
       "identityName": "11103Nerbler09.WindowsXPFirstTimeSetupRecreation",
       "publisher": "CN=8FCAC29E-A771-4806-AD92-B16FDCD3656F",
       "publisherDisplayName": "Nerbler09",
